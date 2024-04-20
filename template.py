@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import logging
 
-logging.basicConfig(level=logging.INFO, format='[%(ascitime)s]: %(message)s:')
+logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 project_name = 'cnnClassifer'
 
@@ -21,8 +21,8 @@ list_of_files = [
     "params.yaml",
     "requirements.txt",
     "setup.py",
-    "research/trials.ipynb"
-    "test.py"
+    "research/trials.ipynb",
+    "templates/index.html"
 ]
 
 for filepath in list_of_files:
